@@ -1,0 +1,10 @@
+ScrollReveal().reveal('.wrapper');
+ScrollReveal().reveal('.scrool-nav', { delay: 100 });
+ScrollReveal().reveal('btn', { delay: 200 });
+ScrollReveal().reveal('.scrool-title-h1', { delay: 300 });
+ScrollReveal().reveal('.scrool-sub-title', { delay: 400 });
+ScrollReveal().reveal('button', { delay: 500 });
+ScrollReveal().reveal('.bg-svg', { delay: 600 });
+ScrollReveal().reveal('.block-description', { delay: 200 });
+ScrollReveal().reveal('.futures', { delay: 200 });
+ScrollReveal().reveal('img', { delay:300 });

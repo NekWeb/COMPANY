@@ -1,0 +1,118 @@
+@media (max-width:875px){
+    .block-description{
+        display: flex !important;
+        justify-content: center;
+    }
+    .left-block-description{
+        display: none !important;
+    }
+    .services{
+        grid-template-columns: 1fr !important;
+        
+        
+    }
+    .futures{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media(max-width: 690px){
+    .scrool-nav{
+        display: none;
+    }
+    .btn{
+        margin-top: 15px;
+        height: 50px;
+        
+    }
+    header{
+        flex-direction: column;
+        margin-top: 15px !important;
+        height: 100px !important;
+    }
+    main{
+        margin-top: 70px !important;
+    }
+    .scrool-sub-title{
+        display: none;
+    }
+    .right-block-description{
+        text-align: center;
+        padding: 45px;
+    }
+    .block-services img{
+        display: none;
+        
+    }
+    .block-services{
+        transform: none !important;
+        width: auto !important;
+        padding: 8px 50px 0px 50px;
+    }
+    .block-services p{
+        padding: 0 !important;
+    }
+    .block-services a{
+        padding: 0 !important;
+    }
+    .item-personal{
+        margin-left: 10px !important;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0 !important;
+        width: 95% !important;
+    }
+    .item-personal::before{
+        position: relative !important;
+        margin: 50px auto !important;
+    }
+    .item-personal p{
+        width: 95%;
+        margin: 100px auto !important;
+        text-align: center;
+        padding-bottom: 0 !important;
+    }
+    .free-section{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .data-personal{
+        margin:-50px auto !important;
+        text-align: center;
+    }
+    .text-free{
+        text-align: center;
+    }
+    .btn-learn{
+        margin-right: 0 !important;
+        margin-top: 30px;
+    }
+    .contact-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about{
+        margin-top: 30px;
+    }
+    .help{
+        margin-top: 30px;
+    }
+    .social{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .wrap-about-help{
+        width: 60% !important;
+    }
+    .lecension{
+        display: none;
+    }
+}
+@media (max-width: 402px){
+    main{
+        margin-top: 25px !important;
+        line-height:  1;
+    }
+}
